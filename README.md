@@ -10,21 +10,38 @@ Amazon Elastic Compute Cloud (Amazon EC2) is a web service that makes web-scale 
 
 		Using API: describeAvailabilityZones(params = {}, callback) ⇒ AWS.Request to implement.
 	It will list all the zones in your region and show the status of it whether it is available or not.
+The result is showed below.
 
   <img src="img/listZone.png"/>
 
 2. Start the existing instance
 
+		Using API: startInstances(params = {}, callback) ⇒ AWS.Request to implement.
+	It will start the instance if given the instance id 
+The result is showed below.
+
   <img src="img/startInstance.png"/>
 
 3. Stop the existing instance
+
+  		Using API: stopInstances(params = {}, callback) ⇒ AWS.Request to implement.
+	It will stop the instance if given the instance id 
+The result is showed below.
 
   <img src="img/stopInstance.png"/>
 
 4. Show the detailed infomation on a existing instance
 
+		Using API: describeInstances(params = {}, callback) ⇒ AWS.Request to implement.
+	It will list all the information of instances of  the given instance id, includes name,status,DNS,IP address,etc.
+The result is showed below.
+
   <img src="img/describeInstance.png"/>
 
 5. Reboot the exising instances
+
+		Using API: rebootInstances(params = {}, callback) ⇒ AWS.Request to implement.
+	It will reboot the instance if given the instance id 
+The result is showed below.
 
   <img src="img/rebootInstance.png"/>
