@@ -8,10 +8,20 @@ Amazon Elastic Compute Cloud (Amazon EC2) is a web service that makes web-scale 
 
 1. List Available Zone
 
+  <img src="img/listZone.png"/>
+
 2. Start the existing instance
+
+  <img src="img/startInstance.png"/>
 
 3. Stop the existing instance
 
+  <img src="img/stopInstance.png"/>
+
 4. Show the detailed infomation on a existing instance
 
+  <img src="img/describeInstance.png"/>
+
 5. Reboot the exising instances
+
+  <img src="img/rebootInstance.png"/>
