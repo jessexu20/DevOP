@@ -7,7 +7,9 @@ Amazon Elastic Compute Cloud (Amazon EC2) is a web service that makes web-scale 
 ##Implemented following function in EC2 API in Javascript
 
 1. List Available Zone
- Using describeAvailabilityZones(params = {}, callback) ⇒ AWS.Request to implement.
+
+		Using API: describeAvailabilityZones(params = {}, callback) ⇒ AWS.Request to implement.
+	It will list all the zones in your region and show the status of it whether it is available or not.
 
   <img src="img/listZone.png"/>
 
